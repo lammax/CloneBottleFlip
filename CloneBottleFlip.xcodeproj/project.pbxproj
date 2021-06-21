@@ -16,6 +16,10 @@
 		B4D332582680C9C00082D9D8 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D332572680C9C00082D9D8 /* MenuScene.swift */; };
 		B4D3325C2680C9F70082D9D8 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B4D3325B2680C9F70082D9D8 /* MenuScene.sks */; };
 		B4D3325F2680CEBB0082D9D8 /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3325E2680CEBB0082D9D8 /* ButtonNode.swift */; };
+		B4D332612680D3E60082D9D8 /* LabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D332602680D3E60082D9D8 /* LabelNode.swift */; };
+		B4D332632680D47F0082D9D8 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D332622680D47E0082D9D8 /* MenuModel.swift */; };
+		B4D332652680D4BB0082D9D8 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D332642680D4BB0082D9D8 /* MenuViewModel.swift */; };
+		B4D332672680DB200082D9D8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D332662680DB200082D9D8 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		B4D332572680C9C00082D9D8 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		B4D3325B2680C9F70082D9D8 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
 		B4D3325E2680CEBB0082D9D8 /* ButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
+		B4D332602680D3E60082D9D8 /* LabelNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelNode.swift; sourceTree = "<group>"; };
+		B4D332622680D47E0082D9D8 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		B4D332642680D4BB0082D9D8 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		B4D332662680DB200082D9D8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 				B4D3324C2680C64B0082D9D8 /* Main.storyboard */,
 				B4D3324F2680C64E0082D9D8 /* Assets.xcassets */,
 				B4D332512680C64E0082D9D8 /* Info.plist */,
+				B4D332662680DB200082D9D8 /* Constants.swift */,
 			);
 			path = CloneBottleFlip;
 			sourceTree = "<group>";
@@ -86,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				B4D3325D2680CEAB0082D9D8 /* Nodes */,
+				B4D332642680D4BB0082D9D8 /* MenuViewModel.swift */,
+				B4D332622680D47E0082D9D8 /* MenuModel.swift */,
 				B4D332572680C9C00082D9D8 /* MenuScene.swift */,
 				B4D3325B2680C9F70082D9D8 /* MenuScene.sks */,
 			);
@@ -96,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				B4D3325E2680CEBB0082D9D8 /* ButtonNode.swift */,
+				B4D332602680D3E60082D9D8 /* LabelNode.swift */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -173,9 +185,13 @@
 			files = (
 				B4D332492680C64B0082D9D8 /* GameScene.swift in Sources */,
 				B4D332582680C9C00082D9D8 /* MenuScene.swift in Sources */,
+				B4D332612680D3E60082D9D8 /* LabelNode.swift in Sources */,
+				B4D332632680D47F0082D9D8 /* MenuModel.swift in Sources */,
 				B4D3324B2680C64B0082D9D8 /* GameViewController.swift in Sources */,
 				B4D332432680C64B0082D9D8 /* AppDelegate.swift in Sources */,
 				B4D3325F2680CEBB0082D9D8 /* ButtonNode.swift in Sources */,
+				B4D332652680D4BB0082D9D8 /* MenuViewModel.swift in Sources */,
+				B4D332672680DB200082D9D8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

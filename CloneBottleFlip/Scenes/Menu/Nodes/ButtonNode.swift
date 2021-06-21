@@ -11,14 +11,14 @@ class ButtonNode: SKSpriteNode {
     
     private var originalScale: CGFloat = .zero
 
-    init(imageName: String, position: CGPoint, scale: CGPoint) {
-        let texture = SKTexture(imageNamed: imageName)
+    init(model: Menu.Button) {
+        let texture = SKTexture(imageNamed: model.imageName)
         super.init(texture: texture, color: .clear, size: texture.size())
         
-        self.position = position
-        self.xScale = scale.x
-        self.yScale = scale.y
-        self.originalScale = scale.x
+        self.position = model.position
+        self.xScale = model.scale.x
+        self.yScale = model.scale.y
+        self.originalScale = model.scale.x
         
         buttonAnimation()
     }
