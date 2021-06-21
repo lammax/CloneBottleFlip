@@ -15,6 +15,7 @@
 		B4D332502680C64E0082D9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D3324F2680C64E0082D9D8 /* Assets.xcassets */; };
 		B4D332582680C9C00082D9D8 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D332572680C9C00082D9D8 /* MenuScene.swift */; };
 		B4D3325C2680C9F70082D9D8 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B4D3325B2680C9F70082D9D8 /* MenuScene.sks */; };
+		B4D3325F2680CEBB0082D9D8 /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D3325E2680CEBB0082D9D8 /* ButtonNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B4D332512680C64E0082D9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4D332572680C9C00082D9D8 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		B4D3325B2680C9F70082D9D8 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		B4D3325E2680CEBB0082D9D8 /* ButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +85,19 @@
 		B4D3325A2680C9D90082D9D8 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				B4D3325D2680CEAB0082D9D8 /* Nodes */,
 				B4D332572680C9C00082D9D8 /* MenuScene.swift */,
 				B4D3325B2680C9F70082D9D8 /* MenuScene.sks */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		B4D3325D2680CEAB0082D9D8 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				B4D3325E2680CEBB0082D9D8 /* ButtonNode.swift */,
+			);
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 				B4D332582680C9C00082D9D8 /* MenuScene.swift in Sources */,
 				B4D3324B2680C64B0082D9D8 /* GameViewController.swift in Sources */,
 				B4D332432680C64B0082D9D8 /* AppDelegate.swift in Sources */,
+				B4D3325F2680CEBB0082D9D8 /* ButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
