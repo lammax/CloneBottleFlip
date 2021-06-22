@@ -15,14 +15,19 @@ class MenuScene: SKScene {
         
         viewModel = MenuViewModel(frame: self.frame)
         
-        setupUI()
+        setupNodes()
     }
     
-    func setupUI() {
+    func setupNodes() {
         self.addChild(viewModel.logoNode)
         self.addChild(viewModel.bestScoreNode)
         self.addChild(viewModel.highScoreNode)
         self.addChild(viewModel.totalFlipsNode)
         self.addChild(viewModel.totalFlipsScoreNode)
+        self.addChild(viewModel.playButtonNode)
+        self.addChild(viewModel.tableNode)
+        self.addChild(viewModel.bottleNode)
+        self.addChild(viewModel.leftButtonNode)
+        self.addChild(viewModel.rightButtonNode)
     }
 }

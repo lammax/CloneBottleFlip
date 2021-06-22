@@ -23,4 +23,10 @@ enum Menu {
         let scale: CGPoint
     }
 
+    struct Bottle {
+        let imageName: String
+        let position: CGPoint
+        let zPosition: CGFloat
+        let scale: CGPoint
+    }
 }

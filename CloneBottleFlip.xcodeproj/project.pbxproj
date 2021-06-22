@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42A0476268214AD007EDEB8 /* BottleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A0475268214AD007EDEB8 /* BottleNode.swift */; };
+		B42A0479268221B2007EDEB8 /* Items.plist in Resources */ = {isa = PBXBuildFile; fileRef = B42A0478268221B2007EDEB8 /* Items.plist */; };
 		B4D332432680C64B0082D9D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D332422680C64B0082D9D8 /* AppDelegate.swift */; };
 		B4D332452680C64B0082D9D8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B4D332442680C64B0082D9D8 /* GameScene.sks */; };
 		B4D332492680C64B0082D9D8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D332482680C64B0082D9D8 /* GameScene.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B42A0475268214AD007EDEB8 /* BottleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleNode.swift; sourceTree = "<group>"; };
+		B42A0478268221B2007EDEB8 /* Items.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Items.plist; sourceTree = "<group>"; };
 		B4D3323F2680C64B0082D9D8 /* CloneBottleFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloneBottleFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D332422680C64B0082D9D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4D332442680C64B0082D9D8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B42A04772682219E007EDEB8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B4D3324F2680C64E0082D9D8 /* Assets.xcassets */,
+				B42A0478268221B2007EDEB8 /* Items.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		B4D332362680C64B0082D9D8 = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +89,6 @@
 				B4D332482680C64B0082D9D8 /* GameScene.swift */,
 				B4D3324A2680C64B0082D9D8 /* GameViewController.swift */,
 				B4D3324C2680C64B0082D9D8 /* Main.storyboard */,
-				B4D3324F2680C64E0082D9D8 /* Assets.xcassets */,
 				B4D332512680C64E0082D9D8 /* Info.plist */,
 				B4D332662680DB200082D9D8 /* Constants.swift */,
 			);
@@ -86,6 +98,7 @@
 		B4D332592680C9D30082D9D8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				B42A04772682219E007EDEB8 /* Sources */,
 				B4D3325A2680C9D90082D9D8 /* Menu */,
 			);
 			path = Scenes;
@@ -108,6 +121,7 @@
 			children = (
 				B4D3325E2680CEBB0082D9D8 /* ButtonNode.swift */,
 				B4D332602680D3E60082D9D8 /* LabelNode.swift */,
+				B42A0475268214AD007EDEB8 /* BottleNode.swift */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -170,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4D3324E2680C64B0082D9D8 /* Main.storyboard in Resources */,
+				B42A0479268221B2007EDEB8 /* Items.plist in Resources */,
 				B4D332452680C64B0082D9D8 /* GameScene.sks in Resources */,
 				B4D332502680C64E0082D9D8 /* Assets.xcassets in Resources */,
 				B4D3325C2680C9F70082D9D8 /* MenuScene.sks in Resources */,
@@ -190,6 +205,7 @@
 				B4D3324B2680C64B0082D9D8 /* GameViewController.swift in Sources */,
 				B4D332432680C64B0082D9D8 /* AppDelegate.swift in Sources */,
 				B4D3325F2680CEBB0082D9D8 /* ButtonNode.swift in Sources */,
+				B42A0476268214AD007EDEB8 /* BottleNode.swift in Sources */,
 				B4D332652680D4BB0082D9D8 /* MenuViewModel.swift in Sources */,
 				B4D332672680DB200082D9D8 /* Constants.swift in Sources */,
 			);
@@ -333,6 +349,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z8JVJD6M2F;
 				INFOPLIST_FILE = CloneBottleFlip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z8JVJD6M2F;
 				INFOPLIST_FILE = CloneBottleFlip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
